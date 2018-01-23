@@ -28,6 +28,7 @@
  */
 #ifdef _ANDROID_
 #include <cutils/log.h>
+#include <string.h>
 #else
 #include <log/log.h>
 #undef PAGE_SHIFT
